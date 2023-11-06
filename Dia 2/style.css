@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+
+:root{
+
+    --cor-perguntas: #1E5128;
+    --cor-titulo: #ffffff;
+    --cor-respostas: #ffffff;
+    --cor-background: #191A19;
+    --cor-buttons: #4E9F3D;
+
+}
+
+* {
+
+    box-sizing: border-box;
+    margin: 100;
+    padding: 1%;
+}
+
+body {
+
+    background-color: var(--cor-background);
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction:column;
+
+  }
+
+.container_titulo {
+
+    color: var(--cor-titulo);
+    text-align: center;
+    font-family: 'Inconsolata', monospace;
+
+}
+
+.container_introduction {
+
+    color: var(--cor-perguntas);
+    background-color: var(--cor-background);
+    font-family: verdana;
+    font-size: 30px;
+    width: 1200px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 24px;
+    font-family: 'Inconsolata', monospace;
+  }
+
+input[type=text]   {
+
+    width: 50%;
+    background-color: var(--cor-background);
+    border-radius: 6px;
+    border-color: var(--cor-perguntas);
+    border-width: 2px;
+    align-content: center;
+    color: var(--cor-respostas);
+    font-family: 'Inconsolata', monospace;
+    font-size: large;
+
+  }
+    
+input[type=submit] {
+ 
+  
+  width: 10%;
+  background-color: var(--cor-buttons);
+  color: var(--cor-background);
+  
+}
+
